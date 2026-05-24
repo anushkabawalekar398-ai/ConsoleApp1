@@ -8,9 +8,16 @@ namespace ConsoleApp1
 {
     internal class Program
     {
+        public void Addition()
+        {
+            int a = 10, b = 20, c;
+            c = a + b;
+            Console.WriteLine($"Addtion={c}");
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello...")
+            Program p = new Program();
+            p.Addition()
         }
     }
 }
